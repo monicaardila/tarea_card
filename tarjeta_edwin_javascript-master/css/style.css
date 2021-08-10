@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(157, 224, 33);
+}
+header{
+    margin-top: 1%;
+    padding:2%;
+    width: 35%;
+    
+}
+.opciones{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+.card{
+    border: solid rgb(36, 34, 34) 1px;
+    width: fit-content;
+}
+ .card2{
+    padding: 10%;
+    width: auto;
+ }   
+
+.card-body{
+    background-color: rgb(145, 145, 226);
+    width: 485px;
+    height: 230px;
+ 
+}
+.card_k{
+    background-color: rgb(255, 255, 255);
+    font-size:20px;
+    color: rgb(70, 68, 68);
+    width: 500px;
+    height: 435px;
+    text-align: center;
+    border:solid rgb(2, 2, 2) 1px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.button{
+    background-color: rgb(207, 102, 102);
+    width: 150px;
+    height: 55px;
+    border-radius: 150px;
+}
+
+.agregar{
+    width: 70px;
+    border-radius: 100px;
+    background-color: purple;
+    color: white;
+}
+.tamano{
+    width: 60px;
+    height: 60px;
+    border-radius: 150px;
+    background-color: hotpink;
+    color: white;
+}
+.px{
+    width: 60px;
+    height: 60px;
+    border-radius: 150px;
+    background-color: rgb(34, 124, 241);
+    color: white; 
+}
+.color{
+    width: 115px;
+    height: 40px;
+}
+.btn{
+    width: 80%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: hotpink;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.icone {
+  height: 250px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  align-self: flex-end;
+}
